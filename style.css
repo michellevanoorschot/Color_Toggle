@@ -1,0 +1,78 @@
+/* overall style website
+color scheme:
+red: #C70039;
+yellow: #FFC300;
+green: #2cba38;
+blue: #3d7ff1
+*/
+
+body {
+  background-color: #f0bfdb;
+}
+
+.btn-toggle-nav {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url("hamburger_menu.png");
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: center;
+  cursor: pointer;
+}
+
+.btn-toggle-nav:hover {
+  opacity: 0.5;
+}
+
+.nav-toggle {
+  display: none;
+  position: absolute;
+  width: 50px;
+  background-color: #fff;
+  z-index: 1000;
+  transition: all 0.5s ease-in-out;
+}
+
+.nav-toggle ul {
+  padding: 0 15px;
+}
+
+.nav-toggle ul li {
+  line-height: 60px;
+  list-style: none;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  padding: 2px 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.homecolor {
+  background-color: #c70039;
+}
+
+.yellowcolor {
+  background-color: #ffc300;
+}
+
+.greencolor {
+  background-color: #2cba38;
+}
+
+.bluecolor {
+  background-color: #3d7ff1;
+}
+
+#text {
+  visibility: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 200px;
+}
